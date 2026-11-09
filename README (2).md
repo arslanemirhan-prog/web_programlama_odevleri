@@ -207,4 +207,21 @@ Sitenin cep telefonlarında ve tabletlerde bozulmadan, ekrana duyarlı (Responsi
 4. **`async / await`:** İnternetten veri çekmek zaman alacağı için JavaScript'e "bu işlem bitene kadar diğer kodlara geçme, bekle" diyen komutlardır (Asenkron programlama).
 5. **Template Literals (`` ` ``) Backtick:** JavaScript içinde HTML kodlarını çok kolay yazmamızı sağlayan ve içine `${degisken}` şeklinde JS değerleri gömmemize olanak tanıyan özel tırnak işaretidir.
 
+8.HAFTA
+
+ <a> Etiketi ve target Özelliği: _blank bağlantıyı yeni sekmede açar, _self (varsayılan) aynı sekmede açar. href="#id" sayfa içi çıpa bağlantısı kurar, href="mailto:..." e-posta gönderir.
+<fieldset> ve <legend>: Form elemanlarını mantıksal gruplara ayırıp etrafına çerçeve çizer, <legend> ise bu çerçevenin başlığını oluşturur.
+<optgroup> ve <datalist>: <optgroup> açılır liste (<select>) elemanlarını kategorilere ayırır. <datalist> ise bir <input> kutusuna otomatik tamamlama (öneri) listesi bağlar.
+<meter> vs <progress>: <meter> bilinen bir aralıktaki skaler ölçümü (disk doluluğu, bütçe riski, sınav puanı) gösterir; <progress> ise bir işlemin tamamlanma/ilerleme durumunu (%50 yüklendi gibi) gösterir.
+
+  
+9.Hafta
+  
+Sözde Sınıf Seçiciler (:hover, :focus, :active): :hover fare ile üzerine gelindiğinde, :active fareyle basılı tutulduğunda, :focus ise bir <input> kutusuna tıklanıp veri girişi yapıldığında uygulanacak stili belirler.
+Sözde Eleman Seçiciler (::first-letter, ::before, ::after, ::selection): Elemanın sadece ilk harfini, öncesini, sonrasını veya fareyle seçilen metin alanını biçimlendirir.
+Kutu Modeli (Box Model): Her HTML elemanı bir kutudur. İçten dışa: content (içerik), padding (iç boşluk), border (kenarlık) ve margin (dış boşluk) katmanlarından oluşur.
+Pozisyon Ayarları (position): relative elemanı kendi normal yerine göre kaydırır ve içindeki absolute elemanlara kapsayıcı (referans) olur. fixed ise elemanı ekrana sabitler (sayfa kaysa da hareket etmez). z-index üst üste gelen elemanlardan hangisinin önde duracağını belirler.
+
+
+
 
